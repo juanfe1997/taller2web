@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculadora fracionarios</title>
+</head>
+<body>
+	<center>
+	<h1>Calculadora fraccionarios </h1>
+	<form action="funcionesd.php" method="POST">
+		<label>Número fracionario 1</label>
+		<br><br>
+		<label for="valor_a">Númerador</label>
+		<input type="number" name="nroa" placeholder="Ingrese el númerador" required="" id="">
+		<br><br>
+		<label for="valor_b">Dénomiador</label>
+		<input type="number" name="nrob" placeholder="Ingrese el dénominador" required="" id="">
+		<br>
+		<br>
+
+		<label for="operacion">operacion</label>
+		<select name="operacion">
+			<option value="sumar">+</option>
+			<option value="diferencia">-</option>
+			<option value="multiplicacion">*</option>
+			<option value="division">/</option>
+		</select>
+		<br>
+		<br>
+
+		<label>Número fracionario 2</label>
+		<br><br>
+		<label for="valor_c">Númerador</label>
+		<input type="number" name="nroc" placeholder="Ingrese el númerador" required="" id="">
+		<br><br>
+		<label for="valor_d">Dénomiador</label>
+		<input type="number" name="nrod" placeholder="Ingrese el dénominador" required="" id="">
+		<br>
+		<br>
+
+		<input type="submit" value="calcular"/>
+		</form>
+		</center>
+</body>
+</html>
